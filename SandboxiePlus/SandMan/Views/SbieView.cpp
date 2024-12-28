@@ -303,7 +303,7 @@ void CSbieView::CreateOldMenu()
 	connect(m_pMenuRun, SIGNAL(customContextMenuRequested(const QPoint&)), this, SLOT(OnMenuContextMenu(const QPoint&)));
 
 		m_pMenuRunBrowser = m_pMenuRun->addAction(CSandMan::GetIcon("Internet"), tr("Run Web Browser"), this, SLOT(OnSandBoxAction()));
-		m_pMenuRunMailer = m_pMenuRun->addAction(CSandMan::GetIcon("Email"), tr("Run eMail Reader"), this, SLOT(OnSandBoxAction()));
+		m_pMenuRunMailer = m_pMenuRun->addAction(CSandMan::GetIcon("Email"), tr("Run Email Reader"), this, SLOT(OnSandBoxAction()));
 		m_pMenuRunAny = m_pMenuRun->addAction(CSandMan::GetIcon("Run"), tr("Run Any Program"), this, SLOT(OnSandBoxAction()));
 		m_pMenuRunMenu = m_pMenuRun->addAction(CSandMan::GetIcon("StartMenu"), tr("Run From Start Menu"), this, SLOT(OnSandBoxAction()));
 		if (theConf->GetBool("Options/ScanStartMenu", true)) {
@@ -1038,7 +1038,7 @@ QString CSbieView::AddNewBox(bool bAlowTemp)
 
 QString CSbieView::ImportSandbox()
 {
-	QString Path = QFileDialog::getOpenFileName(this, tr("Select file name"), "", tr("7-Zip Archive (*.7z);;Zip Archive (*.zip)"));
+	QString Path = QFileDialog::getOpenFileName(this, tr("Select file name"), "", tr("7-Zip Archive (*.7z);;ZIP Archive (*.zip)"));
 	if (Path.isEmpty())
 		return "";
 
@@ -1407,7 +1407,7 @@ void CSbieView::OnSandBoxAction(QAction* Action, const QList<CSandBoxPtr>& SandB
 			Password = pwWnd.GetPassword();
 		}
 
-		QString Path = QFileDialog::getSaveFileName(this, tr("Select file name"), SandBoxes.first()->GetName() + optWnd.GetFormat(), tr("7-Zip Archive (*.7z);;Zip Archive (*.zip)"));
+		QString Path = QFileDialog::getSaveFileName(this, tr("Select file name"), SandBoxes.first()->GetName() + optWnd.GetFormat(), tr("7-Zip Archive (*.7z);;ZIP Archive (*.zip)"));
 		if (Path.isEmpty())
 			return;
 
@@ -1721,7 +1721,7 @@ void CSbieView::OnProcessAction(QAction* Action, const QList<CBoxedProcessPtr>& 
 		{
 			if (!pProcess.objectCast<CSbieProcess>()->GetBox()->IsINetBlocked())
 			{
-				if (QMessageBox("Sandboxie-Plus", tr("This box does not have Internet restrictions in place, do you want to enable them?"), QMessageBox::Question, QMessageBox::Yes, QMessageBox::No | QMessageBox::Default | QMessageBox::Escape, QMessageBox::NoButton, this).exec() != QMessageBox::Yes)
+				if (QMessageBox("Sandboxie-Plus", tr("This box does not have internet restrictions in place, do you want to enable them?"), QMessageBox::Question, QMessageBox::Yes, QMessageBox::No | QMessageBox::Default | QMessageBox::Escape, QMessageBox::NoButton, this).exec() != QMessageBox::Yes)
 					return;
 				pProcess.objectCast<CSbieProcess>()->GetBox()->SetINetBlock(true);
 			}
