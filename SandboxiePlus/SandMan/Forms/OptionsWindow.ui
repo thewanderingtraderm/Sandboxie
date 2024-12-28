@@ -73,7 +73,7 @@
                <item row="10" column="1" colspan="6">
                 <widget class="QLabel" name="lblSupportCert">
                  <property name="text">
-                  <string>&lt;b&gt;More Box Types&lt;/b&gt; are exclusively available to &lt;u&gt;project supporters&lt;/u&gt;, the Privacy Enhanced boxes &lt;b&gt;&lt;font color='red'&gt;protect user data from illicit access&lt;/font&gt;&lt;/b&gt; by the sandboxed programs.&lt;br /&gt;If you are not yet a supporter, then please consider &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get-cert&quot;&gt;supporting the project&lt;/a&gt;, to receive a &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;supporter certificate&lt;/a&gt;.&lt;br /&gt;You can test the other box types by creating new sandboxes of those types, however processes in these will be auto terminated after 5 minutes.</string>
+                  <string>&lt;b&gt;More Box Types&lt;/b&gt; are exclusively available to &lt;u&gt;project supporters&lt;/u&gt;, the Privacy Enhanced boxes &lt;b&gt;&lt;font color='red'&gt;protect user data from illicit access&lt;/font&gt;&lt;/b&gt; by the sandboxed programs.&lt;br /&gt;If you are not yet a supporter, then please consider &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-get-cert&quot;&gt;supporting the project&lt;/a&gt;, to receive a &lt;a href=&quot;https://sandboxie-plus.com/go.php?to=sbie-cert&quot;&gt;supporter certificate&lt;/a&gt;.&lt;br /&gt;You can test the other box types by creating new sandboxes of those types, however processes in these boxes will be auto terminated after 5 minutes.</string>
                  </property>
                  <property name="textFormat">
                   <enum>Qt::RichText</enum>
@@ -326,7 +326,7 @@
                <item row="10" column="1" colspan="6">
                 <widget class="QCheckBox" name="chkAutoEmpty">
                  <property name="text">
-                  <string>Auto delete content changes when last sandboxed process terminates</string>
+                  <string>Auto delete content changes when the last sandboxed process terminates</string>
                  </property>
                 </widget>
                </item>
@@ -405,7 +405,7 @@
                <item row="7" column="2" colspan="4">
                 <widget class="QLabel" name="lblImDisk">
                  <property name="text">
-                  <string>&lt;a href=&quot;addon://ImDisk&quot;&gt;Install ImDisk&lt;/a&gt; driver to enable Ram Disk and Disk Image support.</string>
+                  <string>&lt;a href=&quot;addon://ImDisk&quot;&gt;Install ImDisk&lt;/a&gt; driver to enable RAM Disk and Disk Image support.</string>
                  </property>
                 </widget>
                </item>
@@ -443,14 +443,14 @@
                <item row="5" column="1" colspan="4">
                 <widget class="QCheckBox" name="chkEncrypt">
                  <property name="text">
-                  <string>Encrypt sandbox content</string>
+                  <string>Encrypt sandbox contents</string>
                  </property>
                 </widget>
                </item>
                <item row="14" column="2" colspan="5">
                 <widget class="QCheckBox" name="chkRawDiskNotify">
                  <property name="text">
-                  <string>Warn when an application opens a harddrive handle</string>
+                  <string>Warn when an application opens a hard drive handle</string>
                  </property>
                 </widget>
                </item>
@@ -470,7 +470,7 @@
                <item row="13" column="1" colspan="6">
                 <widget class="QCheckBox" name="chkRawDiskRead">
                  <property name="text">
-                  <string>Allow elevated sandboxed applications to read the harddrive</string>
+                  <string>Allow elevated sandboxed applications to read the hard drive</string>
                  </property>
                 </widget>
                </item>
@@ -503,7 +503,7 @@
                <item row="4" column="1" colspan="4">
                 <widget class="QCheckBox" name="chkRamBox">
                  <property name="text">
-                  <string>Store the sandbox content in a Ram Disk</string>
+                  <string>Store the sandbox content in a RAM Disk</string>
                  </property>
                 </widget>
                </item>
@@ -1160,7 +1160,7 @@
                <item row="10" column="2" colspan="3">
                 <widget class="QLabel" name="label_28">
                  <property name="text">
-                  <string>Note: Msi Installer Exemptions should not be required, but if you encounter issues installing a msi package which you trust, this option may help the installation complete successfully. You can also try disabling drop admin rights.</string>
+                  <string>Note: MSI Installer Exemptions should not be required, but if you encounter issues installing a MSI package which you trust, this option may help the installation complete successfully. You can also try disabling drop admin rights.</string>
                  </property>
                  <property name="wordWrap">
                   <bool>true</bool>
@@ -1983,7 +1983,7 @@
                <item row="3" column="1" colspan="3">
                 <widget class="QCheckBox" name="chkElevateRpcss">
                  <property name="text">
-                  <string>Start the sandboxed RpcSs as a SYSTEM process (not recommended)</string>
+                  <string>Start the sandboxed RPCSS as a SYSTEM process (not recommended)</string>
                  </property>
                 </widget>
                </item>
@@ -2887,7 +2887,7 @@ Partially checked: No groups will be added to the newly created sandboxed token.
                <item row="0" column="0">
                 <widget class="QLabel" name="label_7">
                  <property name="text">
-                  <string>Configure which processes can access Files, Folders and Pipes. 
+                  <string>Configure which processes can access files, folders and pipes. 
 'Open' access only applies to program binaries located outside the sandbox, you can use 'Open for All' instead to make it apply to all programs, or change this behavior in the Policies tab.</string>
                  </property>
                  <property name="wordWrap">
@@ -3497,7 +3497,7 @@ The process match level has a higher priority than the specificity and describes
                <item row="1" column="0">
                 <widget class="QCheckBox" name="chkINetBlockPrompt">
                  <property name="text">
-                  <string>Prompt user whether to allow an exemption from the blockade.</string>
+                  <string>Prompt the user whether to allow an exemption from the blockade.</string>
                  </property>
                 </widget>
                </item>
@@ -3770,7 +3770,7 @@ The process match level has a higher priority than the specificity and describes
                <item row="0" column="0">
                 <widget class="QLabel" name="label_19">
                  <property name="text">
-                  <string>With the DNS filter individual domains can be blocked, on a per process basis. Leave the IP column empty to block or enter an ip to redirect.</string>
+                  <string>With the DNS filter individual domains can be blocked, on a per process basis. Leave the IP column empty to block or enter an IP to redirect.</string>
                  </property>
                  <property name="wordWrap">
                   <bool>true</bool>
@@ -4895,7 +4895,7 @@ This is done to prevent rogue processes inside the sandbox from creating a renam
              <item row="8" column="0" colspan="2">
               <widget class="QCheckBox" name="chkBlockWMI">
                <property name="toolTip">
-                <string>Some programs read system details through WMI (a Windows built-in database) instead of normal ways. For example, &quot;tasklist.exe&quot; could get full processes list through accessing WMI, even if &quot;HideOtherBoxes&quot; is used. Enable this option to stop this behaviour.</string>
+                <string>Some programs read system details through WMI (a Windows built-in database) instead of normal ways. For example, &quot;tasklist.exe&quot; could get full processes list through accessing WMI, even if &quot;HideOtherBoxes&quot; is used. Enable this option to stop this behavior.</string>
                </property>
                <property name="text">
                 <string>Prevent sandboxed processes from accessing system details through WMI (see tooltip for more info)</string>
