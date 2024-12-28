@@ -33,7 +33,7 @@ void CSandMan::CreateTrayIcon()
 	bool bAutoRun = QApplication::arguments().contains("-autorun");
 
 	if(g_PendingMessage.isEmpty()){
-	m_pTrayIcon->show(); // Note: qt bug; hide does not work if not showing first :/
+	m_pTrayIcon->show(); // Note: Qt bug; hide does not work if not showing first :/
 	if(!bAutoRun && theConf->GetInt("Options/SysTrayIcon", 1) == 0)
 		m_pTrayIcon->hide();
 	}
