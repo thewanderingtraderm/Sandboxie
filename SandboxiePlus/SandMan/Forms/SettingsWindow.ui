@@ -98,7 +98,7 @@
              <item row="2" column="1">
               <widget class="QCheckBox" name="chkSandboxUrls">
                <property name="text">
-                <string>Open urls from this ui sandboxed</string>
+                <string>Open URLs from this UI sandboxed</string>
                </property>
                <property name="tristate">
                 <bool>true</bool>
@@ -131,7 +131,7 @@
                <item>
                 <widget class="QCheckBox" name="chkTop">
                  <property name="text">
-                  <string>Hotkey for bringing sandman to the top:</string>
+                  <string>Hotkey for bringing Sandman to the top:</string>
                  </property>
                 </widget>
                </item>
@@ -1395,7 +1395,7 @@
                <item row="0" column="0">
                 <widget class="QLabel" name="label_14">
                  <property name="text">
-                  <string>Sandboxie-Plus offers numerous options and supports a wide range of extensions. On this page, you can configure the integration of add-ons, plugins, and other third-party components. Optional components can be downloaded from the web, and certain installations may require administrative privileges.</string>
+                  <string>Sandboxie-Plus offers numerous options and supports a wide range of extensions. On this page, you can configure the integration of add-ons, plugins, and other third-party components. Optional components can be downloaded from the web, and certain installations may require administrator privileges.</string>
                  </property>
                  <property name="wordWrap">
                   <bool>true</bool>
@@ -1501,7 +1501,7 @@
                <item row="3" column="1" colspan="2">
                 <widget class="QCheckBox" name="chkRamLetter">
                  <property name="text">
-                  <string>Assign drive letter to Ram Disk</string>
+                  <string>Assign drive letter to RAM Disk</string>
                  </property>
                 </widget>
                </item>
@@ -1521,7 +1521,7 @@
                <item row="1" column="1" colspan="6">
                 <widget class="QLabel" name="lblImDisk">
                  <property name="text">
-                  <string>&lt;a href=&quot;addon://ImDisk&quot;&gt;Install ImDisk&lt;/a&gt; driver to enable Ram Disk and Disk Image support.</string>
+                  <string>&lt;a href=&quot;addon://ImDisk&quot;&gt;Install ImDisk&lt;/a&gt; driver to enable RAM Disk and Disk Image support.</string>
                  </property>
                  <property name="openExternalLinks">
                   <bool>false</bool>
@@ -1581,7 +1581,7 @@
                <item row="3" column="4" colspan="3">
                 <widget class="QLabel" name="lblRamLetter">
                  <property name="toolTip">
-                  <string>When a Ram Disk is already mounted you need to unmount it for this option to take effect.</string>
+                  <string>When a RAM Disk is already mounted you need to unmount it for this option to take effect.</string>
                  </property>
                  <property name="text">
                   <string>* takes effect on disk creation</string>
@@ -1706,7 +1706,7 @@
                <item row="7" column="1" colspan="3">
                 <widget class="QLabel" name="lblSerial">
                  <property name="text">
-                  <string>Retrieve/Upgrade/Renew certificate using Serial Number</string>
+                  <string>Retrieve/Upgrade/Renew certificate using a serial number</string>
                  </property>
                  <property name="openExternalLinks">
                   <bool>false</bool>
@@ -2386,7 +2386,7 @@ Unlike the preview channel, it does not include untested, potentially breaking, 
              <item row="7" column="2">
               <widget class="QCheckBox" name="chkClearPass">
                <property name="text">
-                <string>Clear password when main window becomes hidden</string>
+                <string>Clear password when the main window becomes hidden</string>
                </property>
               </widget>
              </item>
