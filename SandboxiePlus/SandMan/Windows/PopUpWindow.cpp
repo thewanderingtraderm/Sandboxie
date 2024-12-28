@@ -403,7 +403,7 @@ void CPopUpWindow::OnDismiss(int iFlag)
 	if (iFlag == 0)
 		RemoveEntry(pEntry);
 
-	if ((iFlag & 0x02) != 0) // disable for this  box
+	if ((iFlag & 0x02) != 0) // disable for this box
 	{
 		CSandBoxPtr pBox = theAPI->GetBoxByName(pEntry->m_BoxName);
 		if (!pBox.isNull())
